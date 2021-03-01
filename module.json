@@ -1,0 +1,14 @@
+{
+    "name": "Comment",
+    "alias": "comment",
+    "description": "Comment module for Laravel.",
+    "keywords": ["comments", "comment"],
+    "order": 0,
+    "providers": [
+        "Modules\\Comment\\Providers\\CommentServiceProvider",
+        "Modules\\Comment\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
