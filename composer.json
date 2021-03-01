@@ -3,6 +3,7 @@
     "description": "Comment module for Laravel",
     "type": "laravel-module",
     "version": "v1.0.0",
+    "license": ["GPL-3.0-or-later"],
     "authors": [
         {
             "name": "SimplePleb",
