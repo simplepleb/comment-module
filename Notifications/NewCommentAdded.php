@@ -89,7 +89,7 @@ class NewCommentAdded extends Notification implements ShouldQueue
 
         return (new SlackMessage())
                 ->success()
-                ->from('BlueCube', ':incoming_envelope:')
+                ->from('SimplePleb', ':incoming_envelope:')
                 ->content('New Comment: '.$comment->name.' | From:'.$comment->user_name)
                 ->attachment(function ($attachment) use ($comment) {
                     $attachment->title('Comment '.$comment->id, route('backend.comments.show', $comment->id))

@@ -50,7 +50,7 @@ class GenerateMenus
                 'class' => 'c-sidebar-nav-item',
             ])
             ->data([
-                'order' => 85,
+                'order' => 99,
                 'activematches' => ['admin/comments*'],
                 'permission' => ['view_comments'],
             ])

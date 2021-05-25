@@ -48,6 +48,7 @@
                 </div>
                 <hr>
 
+                @if( $$module_name_singular->commentable )
                 <h4>Relation</h4>
                 <ul>
                     <li>
@@ -55,6 +56,7 @@
                     </li>
                 </ul>
                 <hr>
+                @endif
 
                 @include('backend.includes.activitylog')
                 <hr>
